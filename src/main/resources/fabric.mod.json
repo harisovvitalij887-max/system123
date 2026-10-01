@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "clienthud",
+  "version": "${version}",
+  "name": "Client HUD",
+  "description": "Pill-style HUD widgets with a drag-and-drop editor.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.clienthud.ClientHudMod"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.4", "java": ">=21", "fabric-api": "*" }
+}
